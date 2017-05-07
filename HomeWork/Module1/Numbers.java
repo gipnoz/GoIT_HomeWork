@@ -11,9 +11,9 @@ public class Numbers {
             System.out.println("Enter number " + (i + 1) + ":");
             ar[i] = sc.nextInt();
         }
-        System.out.println(Arrays.toString(ar));
+        System.out.println("Initial array: " + Arrays.toString(ar));
         Arrays.sort(ar);
-        System.out.print(Arrays.toString(ar));
+        System.out.print("Sorted array: " + Arrays.toString(ar));
 
     }
 }
