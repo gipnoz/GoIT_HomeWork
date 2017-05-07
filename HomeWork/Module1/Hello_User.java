@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Hello_User {
     public static void main(String[] args) {
-        System.out.print("Enter your name:");
+        System.out.println("Enter your name:");
         Scanner sc = new Scanner(System.in);
         String s1;
         s1 = sc.nextLine();
