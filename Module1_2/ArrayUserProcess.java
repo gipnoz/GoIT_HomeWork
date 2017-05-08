@@ -10,13 +10,13 @@ public class ArrayUserProcess {
     }
 
     public static void ArrayFindNum(int[] massive, int num) {
-        for (int i = 0; i < massive.length; i++)
-        {
+        for (int i = 0; i < massive.length; i++) {
             if (num == massive[i]) {
-                System.out.println("Number" + num + "at index" + i);
+                System.out.println("Number " + num + " at index " + i);
                 break;
             }
+            System.out.println("Number not found");
+            break;
         }
-        System.out.println("Number not found");
     }
 }
